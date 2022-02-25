@@ -83,7 +83,7 @@ public class RegisterEcomServlet extends HttpServlet {
 			if (i > 0) {
 				PrintWriter writer = response.getWriter();
 				writer.println("<h1>" + "You have successfully registered an account!" + "</h1>");
-				response.sendRedirect("http://localhost:8090/Ecom/UserServlet/dashboard");
+				response.sendRedirect("http://localhost:8090/Ecomrepo/UserServlet/dashboard");
 				writer.close();
 			}
 

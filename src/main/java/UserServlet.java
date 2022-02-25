@@ -158,7 +158,7 @@ public class UserServlet extends HttpServlet {
 			int i = statement.executeUpdate();
 		}
 		
-		response.sendRedirect("http://localhost:8090/Ecom/UserServlet/dashboard");
+		response.sendRedirect("http://localhost:8090/Ecomrepo/UserServlet/dashboard");
 	}
 
 	
@@ -169,7 +169,7 @@ public class UserServlet extends HttpServlet {
 			statement.setString(1, username);
 			int i = statement.executeUpdate();
 		}
-		response.sendRedirect("http://localhost:8090/Ecom/UserServlet/dashboard");
+		response.sendRedirect("http://localhost:8090/Ecomrepo/UserServlet/dashboard");
 	}
 
 	/**
