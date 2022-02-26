@@ -11,7 +11,7 @@
 	crossorigin="anonymous">
 
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Edit User</title>
 </head>
 <body>
 	<nav class="navbar navbar-expand-md navbar-light">

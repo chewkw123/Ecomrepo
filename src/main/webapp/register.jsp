@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Register</title>
 </head>
-<body>
+<body> 
 
 <form action="RegisterEcomServlet" method="post">
 	<h3>Username: <input type="text" name= "username"></h3>
